@@ -360,6 +360,10 @@ class ExpandableCardView @JvmOverloads constructor(context: Context, attrs: Attr
         else
             card_title.text = titleText
     }
+    
+    fun mtsTitle(titleText: String = "") {
+            card_title.text = titleText
+    }
 
     fun setIcon(@DrawableRes drawableRes: Int = -1, drawable: Drawable? = null) {
         if (drawableRes != -1) {
